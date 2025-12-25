@@ -26,6 +26,10 @@ BetterClaude automatically detects and removes these orphaned blocks, allowing t
 2. **API Call**: Forwards the cleaned request to the target Claude API
 3. **Reactive Fallback**: If a 400 error still occurs, parses the error to identify remaining orphans and retries once
 
+### Architecture
+
+![BetterClaude Architecture](https://net-oss.akclau.de/static/akide/uPic/arch-20251224yFxg5N.png)
+
 ## Usage
 
 Prefix your Claude API endpoint with the gateway URL:
